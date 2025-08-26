@@ -12,3 +12,5 @@ git clone https://github.com/bndos/.doom.d ~/.config/doom
 
 
 ~/.config/emacs/bin/doom sync
+
+sudo apt install libvterm-dev
