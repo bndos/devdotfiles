@@ -2,7 +2,8 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 brew tap d12frosted/emacs-plus
-brew install emacs-plus@31 ripgrep
+brew install emacs-plus@31 --without-cocoa
+brew install ripgrep
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install -y
 
