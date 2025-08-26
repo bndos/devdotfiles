@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-curl https://sh.rustup.rs -sSf | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 brew install emacs-plus@31 ripgrep
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
