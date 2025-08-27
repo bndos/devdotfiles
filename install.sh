@@ -13,4 +13,9 @@ git clone https://github.com/bndos/.doom.d ~/.config/doom
 
 ~/.config/emacs/bin/doom sync
 
+echo 'export TERM="xterm-256color"' >> ~/.zshrc
+echo 'export TERM="xterm-256color"' >> ~/.bashrc
+
+brew install node
 sudo apt install libvterm-dev
+sudo apt install ripgrep
